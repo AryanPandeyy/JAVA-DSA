@@ -78,6 +78,8 @@ public class Maze {
 			return;
 		}
 		if (r < maze.length - 1) {
+			System.out.println(maze.length);
+			System.out.println(maze[0].length);
 			pathRestrictions(p + 'D', maze, r + 1, c);
 		}
 		if (c < maze[0].length - 1) {
